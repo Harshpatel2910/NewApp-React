@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import News from './components/News';
 import NewsItem from './components/NewsItem';
 
+
 export default class App extends Component {
   render() {
     return (
@@ -12,7 +13,7 @@ export default class App extends Component {
       
         <NavBar></NavBar>
 
-        <News></News>
+        <News pageSize={5} country="in" catogary="science"></News>
        
       </div>
     )
