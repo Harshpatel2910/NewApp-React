@@ -11,7 +11,7 @@ import {
 } from 'react-router-dom';
 
 
-const App = ()=> {
+const App = () => {
   const pageSize = 5;
   const apiKey = process.env.REACT_APP_NEWS_API
   const [progress, setProgress] = useState(0)
