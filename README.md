@@ -1,1 +1,1 @@
-This is news app made in React and it use news api to fetch new news.
+NewsApp is a React App showing news results from many sources. Uses data from [News Api](https://newsapi.org/), it's responsive and there are many categories of news like sports, Entertainment, Health, Science etc.
